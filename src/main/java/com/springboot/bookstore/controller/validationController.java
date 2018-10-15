@@ -21,7 +21,7 @@ import com.springboot.bookstore.vo.UserVo;
  *
  */
 @RestController
-public class UserValidationController {
+public class validationController {
 
 	@Autowired
 	private UserServiceImpl userService;
