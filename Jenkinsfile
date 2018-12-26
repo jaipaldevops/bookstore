@@ -11,6 +11,9 @@ pipeline{
         }
 	stage('Build') {
 	   steps {
+	      if(isUnix()){
+	      
+	      }
 	      echo 'Clean Build'
 	      bat 'mvn clean package'
 	   
